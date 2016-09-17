@@ -112,7 +112,7 @@ def main():
     CLI(net)
     
     # Then, mimic bufferbloat.py, automate what you did in CLI, such that 
-    # running aqm.py will output and plot the delivers in the problem.
+    # running aqm.py will output all the delivers in the problem.
     net.stop()
 
 if __name__ == '__main__':
