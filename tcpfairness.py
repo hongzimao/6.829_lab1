@@ -109,6 +109,7 @@ def main():
     net.start()
 
     # First, use CLI to explore this setting, i.e. run iperf on multiple hosts and run ping
+    # Note: It can take a while to pop out xterm windows in GCP.
     CLI(net)
     
     # TODO: Then, comment out CLI(net) and mimic bufferbloat.py, automate what you did in CLI, such that 

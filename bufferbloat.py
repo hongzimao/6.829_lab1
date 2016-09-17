@@ -190,6 +190,7 @@ def bufferbloat():
     # Hint: The command below invokes a CLI which you can use to
     # debug.  It allows you to run arbitrary commands inside your
     # emulated hosts h1 and h2.
+    # Note: It can take a while to pop out xterm windows in GCP.
     # CLI(net)
     
     # This dumps the topology and how nodes are interconnected through
