@@ -111,8 +111,11 @@ def main():
     # First, use CLI to explore this setting, i.e. run iperf on multiple hosts and run ping
     CLI(net)
     
-    # Then, mimic bufferbloat.py, automate what you did in CLI, such that 
+    # TODO: Then, comment out CLI(net) and mimic bufferbloat.py, automate what you did in CLI, such that 
     # running aqm.py will output all the delivers in the problem.
+
+    # Hint: "iperf -c ... -P 10 | grep SUM" gives aggregation information of 10 flows
+    
     net.stop()
 
 if __name__ == '__main__':
