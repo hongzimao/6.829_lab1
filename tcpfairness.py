@@ -117,8 +117,9 @@ def main():
     # Note: It can take a while to pop out xterm windows in GCP.
     CLI(net)
     
-    # TODO: Then, comment out CLI(net) and mimic bufferbloat.py, automate what you did in CLI, such that 
-    # running aqm.py will output all the delivers in the problem.
+    # TODO: Then, comment out CLI(net) and mimic bufferbloat.py, automate what you did in CLI, 
+    # such that running aqm.py will output all the delivers in the problem.
+    # Note: Turn off the xterm in CustomMininet by setting xterms=False
 
     # Hint: "iperf -c ... -P 10 | grep SUM" gives aggregation information of 10 flows
     
