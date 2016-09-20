@@ -17,6 +17,8 @@ iperf_port=5001
 maxq=100
 dir=n1-nopie
 
+# TODO: Add more parameters if needed
+
 # TODO: Run bufferbloat.py here...
 
 # TODO: Ensure the input file names match the ones you use in
