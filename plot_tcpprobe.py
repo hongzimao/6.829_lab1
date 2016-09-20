@@ -85,6 +85,8 @@ for (t,p,c) in events:
     added[p] = c
     totalcwnds.append(total_cwnd)
 
+# No need to plot aggregate cwnd measurement, in case you are interested, 
+# turning on the following line will draw the sum of the measurements from multiple flows
 # axPlot.plot(first(cwnd_time), second(cwnd_time), lw=2, label="$\sum_i W_i$")
 axPlot.grid(True)
 # axPlot.legend()
