@@ -220,6 +220,7 @@ def bufferbloat():
     # command does: curl -o /dev/null -s -w %{time_total} google.com
     # Now use the curl command to fetch webpage from the webserver you
     # spawned on host h1 (not from google!)
+    # Hint: Where is the webserver located?
 
     # Hint: have a separate function to do this and you may find the
     # loop below useful.
