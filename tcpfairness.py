@@ -89,7 +89,8 @@ class TwoSwitchTopo(Topo):
         # TODO: create hosts and add appropriate links between hosts and switches
 
         # TODO: create link between switches, notice that the delay is different
-
+	
+	# Hint: you can use **link_params to pass parameters when creating links
 	# Hint: remember to enable PIE for these links
 
 def set_congestion_control(cc="reno"):
