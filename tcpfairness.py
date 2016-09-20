@@ -91,7 +91,9 @@ class TwoSwitchTopo(Topo):
         # TODO: create link between switches, notice that the delay is different
 	
 	# Hint: you can use **link_params to pass parameters when creating links
-	# Hint: remember to enable PIE for these links
+	# Hint: remember to enable PIE for these links: for links between hosts and
+	# switches, mimic bufferbloat.py, PIE should sit on the switch side; for the
+	# link between switches, enable PIE on both sides.
 
 def set_congestion_control(cc="reno"):
     res = check_output(["sysctl", "-w",
