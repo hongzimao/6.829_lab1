@@ -181,6 +181,7 @@ def start_ping(net, outfile="ping.txt"):
     # Hint: Use host.popen(cmd, shell=True).  If you pass shell=True
     # to popen, you can redirect cmd's output using shell syntax.
     # i.e. ping ... > /path/to/ping.
+    # Hint: Use -i 0.1 in ping to ping every 0.1 sec
 
 def bufferbloat():
     if not os.path.exists(args.dir):
