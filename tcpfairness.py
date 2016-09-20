@@ -120,9 +120,13 @@ def main():
     # TODO: Then, comment out CLI(net) and mimic bufferbloat.py, automate what you did in CLI, 
     # such that running aqm.py will output all the delivers in the problem.
     # Note: Turn off the xterm in CustomMininet by setting xterms=False
+    # Let each experiment run for 200 seconds at least
 
     # Hint: "iperf -c ... -P 10 | grep SUM" gives aggregation information of 10 flows
-    
+    # "iperf -c -i 1 ..." gives a measurement every 1 second
+    # Instead of tcpprobe, you can use "iperf -c ... > txtfile" to store the results.
+    # 
+
     net.stop()
 
 if __name__ == '__main__':
