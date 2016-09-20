@@ -90,6 +90,8 @@ class TwoSwitchTopo(Topo):
 
         # TODO: create link between switches, notice that the delay is different
 
+	# Hint: remember to enable PIE for these links
+
 def set_congestion_control(cc="reno"):
     res = check_output(["sysctl", "-w",
                         "net.ipv4.tcp_congestion_control=" + cc],
