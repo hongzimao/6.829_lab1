@@ -121,6 +121,7 @@ def main():
     # such that running aqm.py will output all the delivers in the problem.
     # Note: Turn off the xterm in CustomMininet by setting xterms=False
     # Let each experiment run for 200 seconds at least
+    # When starting off another experiment, remember to initialize net again by doing net = ...
 
     # Hint: "iperf -c ... -P 10 | grep SUM" gives aggregation information of 10 flows
     # "iperf -c -i 1 ..." gives a measurement every 1 second
