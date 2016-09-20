@@ -130,7 +130,7 @@ class BBTopo(Topo):
         # h1 has fast connection
         # h2 has slow uplink connection
         # Note: needs to add in cls1=BasicIntf, cls2=BasicIntf when setup the link
-        # Hint: PIE inteface sits in the switch side
+        # Hint: PIE inteface sits on the switch side, so which cls you need to change?
 	    
         return
 
