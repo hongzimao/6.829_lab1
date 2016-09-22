@@ -129,6 +129,7 @@ class BBTopo(Topo):
         # TODO: Add links -- with appropriate characteristics 
         # h1 has fast connection
         # h2 has slow uplink connection
+        # Note: use "bw=bw_host" instead of "bw=bw-host"
         # Note: needs to add in cls1=BasicIntf, cls2=BasicIntf when setup the link
         # Hint: PIE inteface sits on the switch side, so which cls you need to change?
 	    
