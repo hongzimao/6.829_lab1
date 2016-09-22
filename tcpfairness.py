@@ -75,7 +75,7 @@ class TwoSwitchTopo(Topo):
     """Topology with two switches. Switch 1 has 3 hosts, switch 2 has 2 hosts,
     switches are connected with a single link."""
 
-    def __init__(self, bw_mbps=100, delay="10ms", max_queue_size=10000,
+    def __init__(self, bw_mbps=100, delay="10ms", max_queue_size=1000,
                  **kwargs):
         super(TwoSwitchTopo, self).__init__(**kwargs)
 
