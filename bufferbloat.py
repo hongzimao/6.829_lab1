@@ -169,8 +169,8 @@ def start_iperf(net):
     # nodes names (like h1) to IP addresses, here it's up to you.
 
 def start_webserver(net):
-    h1 = net.getNodeByName('h1')
-    proc = h1.popen("python http/webserver.py", shell=True)
+    h2 = net.getNodeByName('h2')
+    proc = h2.popen("python http/webserver.py", shell=True)
     sleep(1)
     return [proc]
 
