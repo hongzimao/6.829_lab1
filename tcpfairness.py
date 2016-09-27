@@ -118,7 +118,7 @@ def main():
     CLI(net)
     
     # TODO: Then, comment out CLI(net) and mimic bufferbloat.py, automate what you did in CLI, 
-    # such that running aqm.py will output all the delivers in the problem.
+    # such that running tcpfairness.py will output all the delivers in the problem.
     # Note: Turn off the xterm in CustomMininet by setting xterms=False
     # Let each experiment run for 200 seconds at least
     # When starting off another experiment, remember to initialize net again by doing net = ...
